@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  background: #cebfe1;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.nav-logo {
+  color: #3f3d56;
+  font-family: "YesevaOne-Regular";
+  justify-self: start;
+  margin-left: 20px;
+  /* cursor: pointer; */
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 50px;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: end;
+}
+
+/* add font */
+a {
+  color: #3f3d56;
+  font-family: "Poppins-Medium";
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+@font-face {
+  font-family: "YesevaOne-Regular"; /*Can be any text*/
+  src: local("YesevaOne-Regular"),
+    url("./fonts/YesevaOne-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-Medium"; /*Can be any text*/
+  src: local("Poppins-Medium"),
+    url("./fonts/Poppins-Medium.ttf") format("truetype");
+}

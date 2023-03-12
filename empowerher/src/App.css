@@ -1,169 +1,38 @@
-@font-face {
-  font-family: "Poppins-Medium"; /*Can be any text*/
-  src: local("Poppins-Medium"),
-    url("./fonts/Poppins-Medium.ttf") format("truetype");
+.App {
+  text-align: center;
 }
 
-@font-face {
-  font-family: "Poppins-Bold"; /*Can be any text*/
-  src: local("Poppins-Bold"), url("./fonts/Poppins-Bold.ttf") format("truetype");
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-@font-face {
-  font-family: "Poppins-Light"; /*Can be any text*/
-  src: local("Poppins-Light"),
-    url("./fonts/Poppins-Light.ttf") format("truetype");
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
-.hero-container {
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  background: #F8F7F7;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-.hero-container1 {
-  display: flex;
-  align-items: center;
-  background: #ece4f5;
+.App-link {
+  color: #61dafb;
 }
 
-.hero-image {
-  width: 40.3%;
-  padding: 50px;
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
-
-.hero-text h1 {
-  /* padding: 10px; */
-  color: #594275;
-  font-family: "Poppins-Bold";
-  text-align: center;
-}
-
-.hero-text p {
-  /* padding: 5px; */
-  font-family: "Poppins-Medium";
-  color: #000000;
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.form{
-  align-items: center;
-}
-
-
-.input-group {
-	margin-bottom: 30px;
-}
-.input-group:nth-last-child(-n + 2) {
-	margin-bottom: 50px;
-}
-.input-group > label,
-.input-group > input {
-	font-family: "Poppins-Medium";
-	max-width: 420px;
-	text-align: left;
-	width: 80%;
-  display: block;
-}
-.input-group > label {
-	color: #000000;
-	margin-bottom: 5px;
-}
-.input-group > input {
-	background: #FFFFFF;
-	border-radius: 10px;
-	border: 1px solid #DEDEDE;
-	color: #000000;
-	font-size: 16px;
-	height: 40px;
-	outline: 0;
-	padding: 0 15px;
-	transition: all 0.3s;
-  text-align: left;
-}
-  .input-group > input:focus {
-	background: #fff;
-	border-color: #c4c4c4;
-}
-.input-group > input::placeholder {
-	color: #c4c4c4;
-	font-size: 16px;
-}
-
-.signup-btn1 {
-  width: 270px;
-  height: 50px;
-  border: 0;
-  outline: none;
-  background: #ffb6c1;
-  color: black;
-  font-size: 15px;
-  font-weight: bold;
-  border-radius: 40px;
-  text-align: center;
-  box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.4);
-  cursor: pointer;
-  font-family: "Poppins-Medium";
-  margin-bottom: 20px;
-}
-
-.signup-btn1:active {
-  background-color: #ffb6c1;
-  transform: translateY(5px);
-}
-
-.line-center{
-  margin:0;padding:0 10px;
-  background:#F8F7F7;
-  display:inline-block;
-}
-
-.hr-lines{
-
-  text-align:center;
-  position:relative;
-  z-index:2;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-.hr-lines:after{
-  content:"";
-  position:absolute;
-  top:50%;
-  left:0;
-  right:0;
-  border-top:solid 1.5px black;
-  z-index:-1;
-}
-
-.signup-btn2 {
-  width: 250px;
-  height: 50px;
-  border: 2px solid #ffb6c1;
-  outline: none;
-  background: white;
-  color: black;
-  font-size: 15px;
-  font-weight: bold;
-  border-radius: 40px;
-  text-align: centre;
-  /* text-indent: 50px; */
-  box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.4);
-  cursor: pointer;
-  font-family: "Poppins-Medium";
-  margin-right: 15px;
-  margin-bottom: 50px;
-}
-
-.signup-btn2:active {
-  background-color: white;
-  transform: translateY(5px);
-}
-
-h2 {
-  padding: 20px;
-  font-family: "YesevaOne-Regular";
-  color: #3f3d56;
-}
-
