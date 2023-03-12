@@ -28,7 +28,7 @@
 }
 
 .hero-image {
-  width: 50%;
+  width: 40.3%;
   padding: 50px;
 }
 
@@ -48,12 +48,12 @@
 }
 
 .form{
-  text-align: center;
+  align-items: center;
 }
 
 
 .input-group {
-	margin-bottom: 26px;
+	margin-bottom: 30px;
 }
 .input-group:nth-last-child(-n + 2) {
 	margin-bottom: 50px;
@@ -64,10 +64,10 @@
 	max-width: 420px;
 	text-align: left;
 	width: 80%;
+  display: block;
 }
 .input-group > label {
 	color: #000000;
-	display: inline-block;
 	margin-bottom: 5px;
 }
 .input-group > input {
@@ -80,6 +80,7 @@
 	outline: 0;
 	padding: 0 15px;
 	transition: all 0.3s;
+  text-align: left;
 }
   .input-group > input:focus {
 	background: #fff;
@@ -123,7 +124,7 @@
   text-align:center;
   position:relative;
   z-index:2;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 .hr-lines:after{
@@ -161,7 +162,7 @@
 }
 
 h2 {
-  padding: 50px;
+  padding: 20px;
   font-family: "YesevaOne-Regular";
   color: #3f3d56;
 }

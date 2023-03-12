@@ -1,85 +1,69 @@
-import React, { Component } from "react";
-import communityImage from "./images/community.png";
-import "./App.css";
+import './Signup.css';
+//import NavBar from './navbar';
 
-class App extends Component {
-  handleSubmit = e => {
-    e.preventDefault();
-    console.log(e.target.email.value);
+//images
+import {FaGoogle, FaLinkedin, FaGithub} from "react-icons/fa";
+import worldImage from './images/world.svg'
 
-    if (!e.target.email.value) {
-      alert("Email is required");
-    } else if (!e.target.email.value) {
-      alert("Valid email is required");
-    } else if (!e.target.password.value) {
-      alert("Password is required");
-    } else if (
-      e.target.email.value === "me@example.com" &&
-      e.target.password.value === "123456"
-    ) {
-      alert("Successfully logged in");
-      e.target.email.value = "";
-      e.target.password.value = "";
-    } else {
-      alert("Wrong email or password combination");
-    }
-  };
+//fonts
+import './fonts/Poppins-Medium.ttf';
+import './fonts/Poppins-Bold.ttf';
+import './fonts/Poppins-Light.ttf';
 
-  handleClick = e => {
-    e.preventDefault();
-
-    alert("Goes to registration page");
-  };
-
-  render() {
-    return (
-      <div className="App" align = "right">
-        {/* <img src={logo} className="logo" alt="empowerHer" /> */}
-        <p>Welcome!</p>
-        <div className="welcome">
-          We're glad to have you here! Time to get started on your journey to gaining new skills and advancing your career in an empowering and supporting environment for future female leaders to thrive in tech.
+export const Signup = () => {
+  return (
+    <div className="Signup">
+      <div className="hero-container">
+        <img src={worldImage} alt="worldImage" className="hero-image"/>
+        <div className="hero-text">
+          <h1>Welcome!</h1>
+          <p> Are you ready to start your journey?<br></br>
+          With empowerHer, we seek to empower diverse future leaders in tech through a supportive community that enhances skills, establishes networks, and advances careers.
+          </p>
+          <div className="form" align="center">
+            <div className="input-group">
+              <label htmlFor="firstName">First Name</label>
+              <input type="firstName" name="firstName" placeholder="First Name" />
+            </div>
+            <div className="input-group">
+              <label htmlFor="lastName">Last Name</label>
+              <input type="lastName" name="lastName" placeholder="Last Name" />
+            </div>
+            <div className="input-group">
+              <label htmlFor="email">Email</label>
+              <input type="email" name="email" placeholder="name@email.com" />
+            </div>
+            <div className="input-group">
+              <label htmlFor="password">Password</label>
+              <input type="password" name="password" />
+            </div>
+            <button className="signup-btn1">Register</button>
+            <div className="hr-lines"><span class="line-center">
+              Or Continue With
+              </span>
+            </div>
+            <div className="social">
+              <button className="signup-btn2">
+                Google
+                <FaGoogle />
+              </button>
+              <button className="signup-btn2">
+                LinkedIn
+                <FaLinkedin />
+              </button>
+              <button className="signup-btn2">
+                Github
+                <FaGithub />
+              </button>
+            </div>
+          </div>
         </div>
-        <form className="form" onSubmit={this.handleSubmit}>
-          <div className="input-group">
-            <label htmlFor="firstName">First Name</label>
-            <input type="firstName" name="firstName" placeholder="First Name" />
-          </div>
-          <div className="input-group">
-            <label htmlFor="lastName">Last Name</label>
-            <input type="lastName" name="lastName" placeholder="Last Name" />
-          </div>
-          <div className="input-group">
-            <label htmlFor="email">Email</label>
-            <input type="email" name="email" placeholder="name@email.com" />
-          </div>
-          <div className="input-group">
-            <label htmlFor="password">Password</label>
-            <input type="password" name="password" />
-          </div>
-          <button className="primary" onClick={this.handleClick}>
-            Register
-          </button>
-          <div>
-            <h2><span>Or Continue With</span></h2>
-          </div>
-          <div class="button-container" onClick={this.handleClick}>
-            <button className="b1">
-              <FontAwesomeIcon icon="fa-brands fa-google" />
-              Google
-            </button>
-            <button className="b2">
-              <FontAwesomeIcon icon="fa-brands fa-linkedin" />
-              LinkedIn
-            </button>
-            <button className="b3">
-              <FontAwesomeIcon icon="fa-brands fa-github" />
-              GitHub
-            </button>
-          </div>
-        </form>
       </div>
-    );
-  }
+      <div className="hero-container1">
+        <div className="hero-text">
+        <h2>empowerHer</h2>
+        </div>
+      </div>
+    </div>
+  );
 }
-
-export default App;

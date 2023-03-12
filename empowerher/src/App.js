@@ -2,9 +2,9 @@ import './App.css';
 //import NavBar from './navbar';
 
 //images
-import communityImage from './images/community.png';
+// import communityImage from './images/community.png';
 import {FaGoogle, FaLinkedin, FaGithub} from "react-icons/fa";
-// import worldImage from './images/'
+import worldImage from './images/world.svg'
 
 //fonts
 import './fonts/Poppins-Medium.ttf';
@@ -15,7 +15,7 @@ export const App = () => {
   return (
     <div className="Signup">
       <div className="hero-container">
-        <img src={communityImage} alt="communityImage" className="hero-image"/>
+        <img src={worldImage} alt="worldImage" className="hero-image"/>
         <div className="hero-text">
           <h1>Welcome!</h1>
           <p> Are you ready to start your journey?<br></br>
