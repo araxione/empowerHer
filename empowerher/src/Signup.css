@@ -1,0 +1,172 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+  }
+  
+  html {
+	background: #F8F7F7;
+	min-height: 720px;
+	min-width: 320px;
+  }
+  
+  html,
+  body {
+	height: 100%;
+  }
+  
+  #root {
+	align-items: center;
+	display: flex;
+	height: 100%;
+	justify-content: center;
+  }
+  
+  .App {
+	max-width: 615px; 
+	padding-bottom: 66px;
+	padding-top: 46px;
+	text-align: center;
+	width: 90%;
+  }
+  .App > .logo {
+	max-width: 90%;
+  }
+  .App > .form {
+	margin-bottom: 98px;
+	margin-top: 41px;
+	text-align: center;
+  }
+  
+  .input-group {
+	margin-bottom: 26px;
+  }
+  .input-group:nth-last-child(-n + 2) {
+	margin-bottom: 50px;
+  }
+  .input-group > label,
+  .input-group > input {
+	font-family: Avenir, "Century Gothic", sans-serif; 
+	font-weight: 200;
+	font-style: bold;
+	font-size: 16px;
+	max-width: 420px;
+	text-align: left;
+	width: 80%;
+  }
+  .input-group > label {
+	color: #000000;
+	display: inline-block;
+	margin-bottom: 5px;
+  }
+  .input-group > input {
+	background: #FFFFFF;
+	border-radius: 10px;
+	border: 1px solid #DEDEDE;
+	color: #000000;
+	font-size: 16px;
+	height: 40px;
+	outline: 0;
+	padding: 0 15px;
+	transition: all 0.3s;
+  }
+  .input-group > input:focus {
+	background: #fff;
+	border-color: #c4c4c4;
+  }
+  .input-group > input::placeholder {
+	color: #c4c4c4;
+	font-size: 16px;
+  }
+  
+  button {
+	border-radius: 10px;
+	border: none;
+	color: #000000;
+	cursor: pointer;
+	font-family: Avenir, "Century Gothic", sans-serif;
+	font-weight: 200;
+	font-style: bold;
+	font-size: 16px;
+	letter-spacing: 1px;
+	max-width: 420px;
+	outline: 0;
+	padding: 10px 0;
+	transition: background 0.3s;
+	width: 80%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+  }
+  button.primary {
+	background: #FFB6C1;
+  }
+  button.primary:hover {
+	background: #FFB6C1;
+  }
+  /* button.secondary {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 10px;
+	background: #FFB6C1;
+  } */
+  .button-container{
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  .b1{
+	margin-right: 30px;
+	background: #fff; 
+	border: 1px solid #DEDEDE;
+  }
+  
+  .b2{
+	margin-right: 30px;
+	background: #fff; 
+	border: 1px solid #DEDEDE;
+  }
+  
+  .b3{
+	margin-right: 30px;
+	background: #fff; 
+	border: 1px solid #DEDEDE;
+  }
+  
+  h2 {
+	width: 100%; 
+	text-align: center; 
+	font-family: Avenir, "Century Gothic", sans-serif;
+	font-weight: 200;
+	font-style: bold;
+	font-size: 16px;
+	border-bottom: 1px solid #000; 
+	line-height: 0.1em;
+	margin: 10px 0 10px; 
+  } 
+  
+  h2 span { 
+	background:#F8F7F7; 
+	padding:0 10px; 
+  }
+  
+  .welcome {
+	font-family: Avenir, "Century Gothic", sans-serif;
+	font-weight: 200;
+	font-style: bold;
+	font-size: 16px;
+	color: #594275;
+  }
+  
+  p {
+	font-family: Avenir, "Century Gothic", sans-serif;
+	font-weight: 200;
+	font-style: bold;
+	font-size: 40px;
+	color: #594275;
+  }
+  
+  .communityImage {
+	align-content: center;
+  }
+  
