@@ -1,5 +1,6 @@
 import './Signup.css';
 //import NavBar from './navbar';
+import {useNavigate} from 'react-router-dom';
 
 //images
 import {FaGoogle, FaLinkedin, FaGithub} from "react-icons/fa";
@@ -11,6 +12,13 @@ import './fonts/Poppins-Bold.ttf';
 import './fonts/Poppins-Light.ttf';
 
 export const Signup = () => {
+  const navigate = useNavigate();
+
+  const navigateInterest = () => {
+    // 👇️ navigate to /
+    navigate('/interest');
+  };
+
   return (
     <div className="Signup">
       <div className="hero-container">
@@ -37,7 +45,7 @@ export const Signup = () => {
               <label htmlFor="password">Password</label>
               <input type="password" name="password" />
             </div>
-            <button className="signup-btn1">Register</button>
+            <button className="signup-btn1" onClick={navigateInterest}>Register</button>
             <div className="hr-lines"><span class="line-center">
               Or Continue With
               </span>
