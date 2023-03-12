@@ -1,15 +1,3 @@
-import './App.css';
-import React, { Component } from 'react';
-import NavBar from './navbar';
-import { LandingPage } from './LandingPage';
-import { Interest } from './Interest';
-import { Signup } from './Signup';
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-} from "react-router-dom";
-
 class App extends Component {
   render() {
     return (
@@ -28,5 +16,3 @@ class App extends Component {
     );
   }
 }
-
-export default App
