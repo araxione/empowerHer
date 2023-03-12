@@ -35,7 +35,6 @@ export const Interest = () => {
         <button className='Select-button'>Network Engineering</button>       
       </div>
       <div className = "Direction-group">
-        <button className='Direction-button'>Back</button>
         <button className='Direction-button'>Continue</button>
       </div>
     </div>
