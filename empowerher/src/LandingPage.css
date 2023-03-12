@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "Poppins-Medium"; /*Can be any text*/
+  src: local("Poppins-Medium"),
+    url("./fonts/Poppins-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-Bold"; /*Can be any text*/
+  src: local("Poppins-Bold"), url("./fonts/Poppins-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-Light"; /*Can be any text*/
+  src: local("Poppins-Light"),
+    url("./fonts/Poppins-Light.ttf") format("truetype");
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+}
+
+.hero-container1 {
+  display: flex;
+  align-items: center;
+  background: #ece4f5;
+}
+
+.hero-image {
+  width: 50%;
+  padding: 50px;
+}
+
+.hero-text h1 {
+  padding: 10px;
+  color: #594275;
+  font-family: "Poppins-Bold";
+  /* text-align: left; */
+}
+
+.hero-text p {
+  padding: 20px;
+  font-family: "Poppins-Light";
+  /* text-align: left; */
+}
+
+.landing-btn1 {
+  width: 270px;
+  height: 50px;
+  border: 0;
+  outline: none;
+  background: #ffb6c1;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 40px;
+  text-align: center;
+  box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  font-family: "Poppins-Medium";
+}
+
+.landing-btn1:active {
+  background-color: #ffb6c1;
+  transform: translateY(5px);
+}
+
+.landing-btn2 {
+  width: 270px;
+  height: 50px;
+  border: 2px solid #ffb6c1;
+  outline: none;
+  background: white;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 40px;
+  text-align: center;
+  box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  font-family: "Poppins-Medium";
+}
+
+.landing-btn2:active {
+  background-color: white;
+  transform: translateY(5px);
+}
+
+h2 {
+  padding: 50px;
+  font-family: "YesevaOne-Regular";
+  color: #3f3d56;
+}

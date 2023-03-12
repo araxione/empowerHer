@@ -1,48 +1,19 @@
-.circle-one {
-    width:  30px;
-    height: 30px;
-    border-radius: 50%;
-    border:2px solid rgba(167, 98, 108, .4); 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.Progress-bar{
+    height: 100px;
+    padding: 80px 150px 0px 150px ;
+  }
+.Nav-bar{
+    height: 100px;
+    background-color: #CEBFE1;
+  }
+.Content{
+    padding: 80px 150px 0px 150px ;
+    text-align: left;
+  }
+h1{
     color: #594275;
-    background-color: #FFB6C1;
-    opacity: 1;
-}
-.circle-two {
-    width:  30px;
-    height: 30px;
-    border-radius: 50%;
-    border:2px solid rgba(128,128,128,.4); 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #594275;
-    background-color: white;
-    opacity: 1;
-}
-.circle-three {
-    width:  30px;
-    height: 30px;
-    border-radius: 50%;
-    border:2px solid rgba(128,128,128,.4); 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #594275;
-    background-color: white;
-    opacity: 1;
-}
-.circle-four {
-    width:  30px;
-    height: 30px;
-    border-radius: 50%;
-    border:2px solid rgba(128,128,128,.4); 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #594275;
-    background-color: white;
-    opacity: 1;
+    font-family: "Poppins-Bold";
+  }
+p{
+  font-family: "Poppins-Light";
 }

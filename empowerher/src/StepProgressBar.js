@@ -1,5 +1,5 @@
 import React from "react";
-import './Interest.css';
+import './StepProgressBar.css';
 import "react-step-progress-bar/styles.css";
 import { ProgressBar, Step } from "react-step-progress-bar";
  
@@ -16,22 +16,22 @@ class StepProgressBar extends React.Component {
         transition="scale"
         position={25}>
           {({ accomplished }) => (
-            <div class="circle-one">1</div>
+            <div class="filled">1</div>
           )}
         </Step>
         <Step transition="scale">
           {({ accomplished }) => (
-            <div class="circle-two">2</div>
+            <div class="unfilled">2</div>
           )}
         </Step>
         <Step transition="scale">
           {({ accomplished }) => (
-            <div class="circle-three">3</div>
+            <div class="unfilled">3</div>
           )}
         </Step>
         <Step transition="scale">
           {({ accomplished }) => (
-            <div class="circle-four">4</div>
+            <div class="unfilled">4</div>
           )}
         </Step>
       </ProgressBar>
