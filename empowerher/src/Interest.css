@@ -34,6 +34,9 @@ p{
 .Select-button:hover{
   background-color: #FDE8EB;
 }
+.Select-button:active{
+  background-color: #FDE8EB;
+}
 
 .Direction-group{
   padding: 50px 0px 50px 0px;
