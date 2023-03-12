@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+/* My css */
+.Progress-bar{
+  height: 60px;
+  padding: 80px 150px 0px 150px ;
+}
+.Nav-bar{
+  height: 100px;
+  background-color: #CEBFE1;
+}
+.Content{
+  padding: 5px 150px 0px 150px ;
+}
+h1{
+  color: #594275;
+}
