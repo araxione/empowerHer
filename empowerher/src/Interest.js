@@ -1,6 +1,7 @@
 import './Interest.css';
 import StepProgressBar from './StepProgressBar';
 
+
 //fonts
 import './fonts/Poppins-Medium.ttf';
 import './fonts/Poppins-Bold.ttf';
