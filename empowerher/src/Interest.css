@@ -17,3 +17,39 @@ h1{
 p{
   font-family: "Poppins-Light";
 }
+
+.Button-group{
+  padding: 50px 150px 0px 150px;
+}
+
+.Select-button{
+  padding: 20px 10px 20px 10px;
+  margin: 0px 20px 20px 20px;
+  border-radius: 12px;
+  border-width: 1px;
+  background-color: white;
+  font-family: "Poppins-bold";
+}
+
+.Select-button:hover{
+  background-color: #FDE8EB;
+}
+
+.Direction-group{
+  padding: 50px 0px 50px 0px;
+}
+
+.Direction-button{
+  width: 150px;
+  padding: 20px 10px 20px 10px;
+  margin: 0px 20px 20px 20px;
+  border-radius: 12px;
+  border-width: 3px;
+  border-color: #FFB6C1 ;
+  background-color: rgba(128, 128, 128, 0.03);
+  font-family: "Poppins-bold";
+}
+
+.Direction-button:hover{
+  background-color: #FFB6C1;;
+}
