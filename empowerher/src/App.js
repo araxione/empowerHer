@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import NavBar from './navbar';
 import { LandingPage } from './LandingPage';
 import { Interest } from './Interest';
+import { MentorList } from './MentorList';
 import {
   BrowserRouter as Router,
   Route,
@@ -19,6 +20,7 @@ class App extends Component {
         <Routes>
           <Route path='/' element={<LandingPage/>} />
           <Route path='/interest' element={<Interest/>} />
+          <Route path='/mentorlist' element={<MentorList/>} />
         </Routes>
         </div>
       </Router>

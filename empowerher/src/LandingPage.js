@@ -1,5 +1,4 @@
 import './LandingPage.css';
-import NavBar from './navbar';
 
 //images
 import diversityImage from './images/diversity-pic.png';

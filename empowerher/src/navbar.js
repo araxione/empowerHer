@@ -15,20 +15,16 @@ class NavBar extends Component {
                         <a href="/">Home</a>
                     </li>
                     <li>
-                        <a href="/">Mentors</a>
+                        <a href="/mentorlist">Mentors</a>
                     </li>
                     <li>
-                        <a href="/">Resources</a>
+                        <a href="/interest">Resources</a>
                     </li>
                     <li>
                         <a href="/">Contact Us</a>
                     </li>
                     <li>
                         <a href="/">About</a>
-                    </li>
-                    {/* my link */}
-                    <li>
-                        <a href="/interest">Interests</a>
                     </li>
                  </ul>
             </nav>
