@@ -21,8 +21,9 @@
   text-align: center;
 }
 
-.hero-image {
+.hero-image1 {
   width: 100%;
+  padding: 50px;
 }
 
 .hero-text h1 {
@@ -58,6 +59,7 @@
   box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.4);
   cursor: pointer;
   font-family: "Poppins-Medium";
+  margin-right: 10px;
 }
 
 .btn1:active {

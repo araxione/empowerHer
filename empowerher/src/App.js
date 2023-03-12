@@ -4,6 +4,7 @@ import NavBar from './navbar';
 import { LandingPage } from './LandingPage';
 import { Interest } from './Interest';
 import { MentorList } from './MentorList';
+import { Signup } from './Signup';
 import {
   BrowserRouter as Router,
   Route,
@@ -21,6 +22,7 @@ class App extends Component {
           <Route path='/' element={<LandingPage/>} />
           <Route path='/interest' element={<Interest/>} />
           <Route path='/mentorlist' element={<MentorList/>} />
+          <Route path='/signup' element={<Signup/>} />
         </Routes>
         </div>
       </Router>

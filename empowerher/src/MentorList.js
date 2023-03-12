@@ -24,24 +24,24 @@ export const MentorList = () => {
     </div>
     <div className="hero-container">
       <div className="hero-images">
-      <img src={cardOne} alt="Picture unavailable." className="hero-image"/>
+      <img src={cardOne} alt="Picture unavailable." className="hero-image1"/>
       </div>
       <div className="hero-img">
-      <img src={cardTwo} alt="Picture unavailable." className="hero-image"/>
+      <img src={cardTwo} alt="Picture unavailable." className="hero-image1"/>
       </div>
       <div className="hero-img">
-      <img src={cardThree} alt="Picture unavailable." className="hero-image"/>
+      <img src={cardThree} alt="Picture unavailable." className="hero-image1"/>
       </div>
     </div>
     <div className="hero-container">
       <div className="hero-images">
-      <img src={cardFour} alt="Picture unavailable." className="hero-image"/>
+      <img src={cardFour} alt="Picture unavailable." className="hero-image1"/>
       </div>
       <div className="hero-img">
-      <img src={cardFive} alt="Picture unavailable." className="hero-image"/>
+      <img src={cardFive} alt="Picture unavailable." className="hero-image1"/>
       </div>
       <div className="hero-img">
-      <img src={cardSix} alt="Picture unavailable." className="hero-image"/>
+      <img src={cardSix} alt="Picture unavailable." className="hero-image1"/>
       </div>
     </div>
     <div className="hero-container-btns">
