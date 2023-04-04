@@ -7,14 +7,14 @@
     background-color: #CEBFE1;
   }
 .Content{
-    padding: 80px 150px 0px 150px ;
+    padding: 80px 150px 0px 150px;
     text-align: left;
   }
-h1{
+.Content h1{
     color: #594275;
     font-family: "Poppins-Bold";
   }
-p{
+  .Content p{
   font-family: "Poppins-Light";
 }
 
@@ -31,12 +31,12 @@ p{
   font-family: "Poppins-bold";
 }
 
+
+
 .Select-button:hover{
   background-color: #FDE8EB;
 }
-.Select-button:active{
-  background-color: #FDE8EB;
-}
+
 
 .Direction-group{
   padding: 50px 0px 50px 0px;
@@ -46,11 +46,23 @@ p{
   width: 150px;
   padding: 20px 10px 20px 10px;
   margin: 0px 20px 20px 20px;
+  border: 0;
+  outline: none;
+  background: #ffb6c1;
+  color: black;
   border-radius: 12px;
   border-width: 3px;
   border-color: #FFB6C1 ;
-  background-color: rgba(128, 128, 128, 0.03);
-  font-family: "Poppins-bold";
+  box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.4);
+  font-family: "Poppins-Medium";
+  cursor: pointer;
+}
+
+
+
+.Direction-button:active {
+  background-color: #ffb6c1;
+  transform: translateY(5px);
 }
 
 .Direction-button:hover{
