@@ -18,33 +18,34 @@
 .hero-container {
   display: flex;
   align-items: center;
+  text-align: center;
 }
 
-.hero-container1 {
-  display: flex;
-  align-items: center;
-  background: #ece4f5;
-}
-
-.hero-image {
-  width: 50%;
+.hero-image1 {
+  width: 100%;
   padding: 50px;
 }
 
 .hero-text h1 {
-  padding: 10px;
+  padding-left: 50px;
+  padding-top: 50px;
   color: #594275;
   font-family: "Poppins-Bold";
-  /* text-align: left; */
+  text-align: left;
 }
 
 .hero-text p {
-  padding: 20px;
+  padding-left: 50px;
   font-family: "Poppins-Light";
-  /* text-align: left; */
+  text-align: left;
 }
 
-.landing-btn1 {
+.hero-container-btns {
+  text-align: center;
+  padding: 50px;
+}
+
+.btn1 {
   width: 270px;
   height: 50px;
   border: 0;
@@ -61,12 +62,12 @@
   margin-right: 10px;
 }
 
-.landing-btn1:active {
+.btn1:active {
   background-color: #ffb6c1;
   transform: translateY(5px);
 }
 
-.landing-btn2 {
+.btn2 {
   width: 270px;
   height: 50px;
   border: 2px solid #ffb6c1;
@@ -82,13 +83,7 @@
   font-family: "Poppins-Medium";
 }
 
-.landing-btn2:active {
+.btn2:active {
   background-color: white;
   transform: translateY(5px);
-}
-
-h2 {
-  padding: 50px;
-  font-family: "YesevaOne-Regular";
-  color: #3f3d56;
 }
